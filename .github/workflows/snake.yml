@@ -2,12 +2,14 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Запуск каждый день
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Запуск каждый день в 00:00 UTC
+  workflow_dispatch: # Возможность запускать вручную
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Добавляем разрешение на запись
     steps:
       - uses: Platane/snk@v3
         with:
