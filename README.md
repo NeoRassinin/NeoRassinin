@@ -16,10 +16,6 @@
 
 ---
 
-### 🐍 Змейка коммитов:
-<p align="center">
-  <img src="https://github.com/NeoRassinin/NeoRassinin/blob/output/github-contribution-grid-snake.svg">
-</p>
 
 ---
 
